@@ -4,6 +4,31 @@ body, ul {
     box-sizing: border-box;
     font-family: 'Times New Roman', Times, serif;
 }
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+
+}
+
+.navbar ul li a:hover {
+    color: #f359ca;
+}
+
+
+
+
 #img-div{
     background-color: rgba(10, 2, 50, 0.968);
     height: 337px;
@@ -98,28 +123,6 @@ label{
     z-index: 1000;
    
    
-}
-
-.navbar ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-}
-
-.navbar ul li {
-    margin: 0 15px;
-}
-
-.navbar ul li a {
-    color: white;
-    text-decoration: none;
-    font-size: 18px;
-    transition: color 0.3s ease;
-
-}
-
-.navbar ul li a:hover {
-    color: #f359ca;
 }
 
 
