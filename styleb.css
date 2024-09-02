@@ -9,10 +9,10 @@ body, ul {
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: #22ccdf;
+    background-color:  rgba(10, 2, 50, 0.968);
     padding: 10px 0;
     z-index: 1000;
-    height: 30px;
+    height: 40px;
 }
 .navbar ul {
     list-style: none;
@@ -22,7 +22,7 @@ body, ul {
 
 .navbar ul li {
     margin: 0 15px;
-    padding-top: 4px;
+    padding-top: 8px;
 }
 
 .navbar ul li a {
@@ -31,21 +31,15 @@ body, ul {
     font-size: 18px;
     transition: color 0.3s ease;
 }
-
 .navbar ul li a:hover {
-    color: #f359ca;
+    color: #22ccdf;
 }
-#img-div{
-    background-color: rgba(10, 2, 50, 0.968);
-    height: 400px;
-}
-
 #image{
-    width: 270px;
-    height: 240px;
-    margin-left: 800px;
+    width: 290px;
+    height: 260px;
+    margin-left: 470px;
     margin-top: -4px;
-    padding-top: 90px;
+    padding-top: 150px;
    /* border-radius: 200px 200px 200px 200px; 
     box-shadow: 0 0 10px 10px hsl(185, 86%, 69%);*/
 }
@@ -53,36 +47,13 @@ body, ul {
     font-family: roman;
     font-size: 45px;
     font-style: italic;
-    text-align: left;
-    color: aliceblue;
-    margin-left:150px;
-    margin-top: -120px;
-}
-h2{
-    margin-left: 85px;
-    color: rgb(200, 4, 190);
-}
-h3{
-    margin-left: 82px;
-    font-size: 30px;
-    color: rgb(200, 4, 190);
-}
-pre{
-    font-family: roman; 
-    font-size: 18px;
-    padding-top: 0px;
-  
-}
-a{
-    color: blue;
-}
-.name1{
-    font-family: roman;
-    font-size: 33px;
     text-align: center;
-    padding-top: 40px;
+    color: black;
+    margin-left:6px;
+    margin-top: -6px;
 }
-#tribute-info{background-color:  #22ccdf;
+
+#tribute-info{background-color:  rgba(10, 2, 50, 0.968);
     height: 70px;
     width: 1230px;
     color: rgba(253, 253, 253, 0.945);

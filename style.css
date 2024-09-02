@@ -59,18 +59,16 @@ body, ul {
     margin-top: -120px;
 }
 h2{
-    margin-left: 85px;
-    color: rgb(200, 4, 190);
+    text-align: center;
+    color: rgb(7, 8, 8);
+    font-size: 33px;
 }
-h3{
-    margin-left: 82px;
-    font-size: 30px;
-    color: rgb(200, 4, 190);
-}
+
 pre{
     font-family: roman; 
     font-size: 18px;
     padding-top: 0px;
+    margin-left: 40px;
   
 }
 a{
