@@ -7,13 +7,6 @@ body {
     margin: 20px 0;
     margin-top: 40px;
 }
-.h1{
-text-align: center;
-}
-.h3{
-    margin-left: 40px;
-    
-}
 .skill-logo {
     display: flex;
     align-items: center;
@@ -25,40 +18,82 @@ text-align: center;
     margin-left: 30px;
     margin-top: 10px;
 }
-
 .skill-bar {
     background-color: #fcfbfb;
     border-radius: 25px;
     overflow: hidden;
     height: 15px;
-    width: 40%;
+    width: 420%;
     margin-left: 30px;
   
 }
-
 .progress {
     height: 100%;
     border-radius: 25px;
     background-color: #00c7c7;
 }
+
 .english {
-    width: 97%; 
+    width: 90%; 
 }
 .figma {
     width: 80%; 
 }
 .html{
-    width: 70%;
-}
-.free{
-    width: 70%; 
+    width: 80%;
+   
 }
 .dari{
     width: 100%;
 }
-.urdu{
-    width: 80%;
+
+.intim{
+  display: flex;
+  direction: row;
 }
-.pashto{
-    width: 70%;
+
+#image{
+    width: 270px;
+    height: 240px;
+    margin-left: 600px;
+    margin-top: -10px;
+    padding-top: 45px;
+   /* border-radius: 200px 200px 200px 200px; 
+    box-shadow: 0 0 10px 10px hsl(185, 86%, 69%);*/
+}
+.int{
+    border-radius: 200px 200px 200px 200px; 
+    height: 110px;
+    width: 110px;
+    box-shadow: 0 0 5px 5px hsl(243, 92%, 15%);
+    margin-left: 155px;
+ 
+}
+label{
+    margin-left: 176px; 
+    font-size: 20px;
+}
+.certify{
+    width: 190px;
+    height: 170px;
+    margin-left: 84px;
+    box-shadow: 0 0 5px 5px hsl(185, 86%, 69%);
+}
+.cr2{
+    width: 190px;
+    height: 170px;
+    margin-left: 84px;
+    box-shadow: 0 0 5px 5px hsl(185, 86%, 69%);
+}
+.cr3{
+    width: 190px;
+    height: 170px;
+    margin-left: 84px;
+    box-shadow: 0 0 5px 5px hsl(185, 86%, 69%);
+}
+.cr4{
+    width: 190px;
+    height: 170px;
+    margin-left: 84px;
+    box-shadow: 0 0 5px 5px hsl(185, 86%, 69%);
 }
