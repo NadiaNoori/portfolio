@@ -84,6 +84,35 @@ label{
 
 
 
+footer {
+    background-color: #0d3d4b; /* Dark background color */
+    padding: 20px 0;
+    text-align: center;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-icon {
+    color: #00c7c7;
+    font-size: 30px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+    color: #ffffff; /* Color change on hover */
+}
+
+footer p {
+    color: #ffffff;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
 
 
 
