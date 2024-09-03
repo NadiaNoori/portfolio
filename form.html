@@ -3,28 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login Form</title>
+    <title>Contact Form</title>
     <link rel="stylesheet" href="form.css">
 </head>
 <body>
-    <div class="login-container">
-        <form class="login-form">
-            <h2>Login</h2>
-            <div class="input-group">
-                <label for="username">Name</label>
-                <input type="text" id="username" name="username" required>
-            </div>
-            <div class="input-group">
-                <label for="email">Email</label>
-                <input type="email" id="email" name="email" required>
-            </div>
-            <div class="input-group">
-                <label for="comments">Your Comments:</label>
-                <textarea id="comments" name="comments" rows="6" placeholder="Enter your comments here..."></textarea>
-            </div>
-            
-            <button type="submit">Login</button>
-        </form>
+    <div class="contact-section">
+        <div class="contact-info">
+            <h2>Get in touch</h2>
+            <br><br>
+        <div class="contact-form">
+            <form action="#" method="post">
+                <div class="input-box">
+                    <input type="text" name="name" required>
+                    <label>Name</label>
+                </div>
+                <div class="input-box">
+                    <input type="email" name="email" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <textarea name="message" required></textarea>
+                    <label>Your message</label>
+                </div>
+                <button type="submit" placeholder="Text message...">Submit</button>
+            </form>
+        </div>
     </div>
+
 </body>
 </html>
