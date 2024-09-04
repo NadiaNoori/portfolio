@@ -97,7 +97,12 @@ label{
     margin-left: 78px;
     box-shadow: 0 0 5px 5px hsl(185, 86%, 69%);
 }
-.social{
-    width: 50px;
-    height: 50px;
+
+.proj{
+    display: flex;
+  direction: row;
+}
+.ints{
+    width: 300px;
+    height: 200px;
 }

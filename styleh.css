@@ -70,6 +70,7 @@ label{
 }
 .social{
     margin-left: 110px;
+    text-align: center;
 }
 .img0{
     width: 28px;
@@ -102,9 +103,10 @@ label{
     box-shadow: 0 0 3px 3px hsl(185, 86%, 69%);
 }
 
-
-
-
+.con{
+    margin-left: 80px;
+  
+}
 
 
 
