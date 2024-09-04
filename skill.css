@@ -23,7 +23,7 @@ body {
     border-radius: 25px;
     overflow: hidden;
     height: 15px;
-    width: 420%;
+    width: 440%;
     margin-left: 30px;
   
 }
@@ -40,11 +40,11 @@ body {
     width: 80%; 
 }
 .html{
-    width: 80%;
+    width: 70%;
    
 }
-.dari{
-    width: 100%;
+.CSS{
+    width: 80%;
 }
 
 .intim{
@@ -74,26 +74,30 @@ label{
     font-size: 20px;
 }
 .certify{
-    width: 190px;
-    height: 170px;
-    margin-left: 84px;
+    width: 200px;
+    height: 230px;
+    margin-left: 78px;
     box-shadow: 0 0 5px 5px hsl(185, 86%, 69%);
 }
 .cr2{
-    width: 190px;
-    height: 170px;
-    margin-left: 84px;
+    width: 200px;
+    height: 230px;
+    margin-left: 80px;
     box-shadow: 0 0 5px 5px hsl(185, 86%, 69%);
 }
 .cr3{
-    width: 190px;
-    height: 170px;
-    margin-left: 84px;
+    width: 200px;
+    height: 230px;
+    margin-left: 82px;
     box-shadow: 0 0 5px 5px hsl(185, 86%, 69%);
 }
 .cr4{
-    width: 190px;
-    height: 170px;
-    margin-left: 84px;
+    width: 200px;
+    height: 230px;
+    margin-left: 78px;
     box-shadow: 0 0 5px 5px hsl(185, 86%, 69%);
+}
+.social{
+    width: 50px;
+    height: 50px;
 }
