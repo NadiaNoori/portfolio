@@ -30,6 +30,7 @@ body, ul {
     text-decoration: none;
     font-size: 18px;
     transition: color 0.3s ease;
+    margin-left: 25px;
 }
 .navbar ul li a:hover {
     color: #22ccdf;
@@ -37,7 +38,7 @@ body, ul {
 #image{
     width: 290px;
     height: 260px;
-    margin-left: 474px;
+    margin-left: 470px;
     margin-top: -4px;
     padding-top: 150px;
    /* border-radius: 200px 200px 200px 200px; 
@@ -49,7 +50,7 @@ body, ul {
     font-style: italic;
     text-align: center;
     color: black;
-    margin-left:6px;
+    margin-left:18px;
     margin-top: -6px;
 }
 .int{
