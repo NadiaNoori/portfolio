@@ -12,7 +12,7 @@ body, ul {
     background-color:  rgba(10, 2, 50, 0.968);
     padding: 10px 0;
     z-index: 1000;
-    height: 40px;
+    height: 50px;
 }
 .navbar ul {
     list-style: none;
@@ -69,46 +69,45 @@ label{
     display: flex;
     direction: row;
 }
-.social{
-    margin-left: 110px;
-    text-align: center;
-}
-.img0{
-    width: 28px;
-    height: 28px;
-    margin-left: 100px;
-    box-shadow: 0 0 3px 3px hsl(185, 86%, 69%);
-    border-radius: 200px 200px 200px 200px; 
-}
-.img1{
-    width: 30px;
-    height: 30px;
-    margin-left: 12px;
-    border-radius: 200px 200px 200px 200px; 
-    box-shadow: 0 0 3px 3px hsl(185, 86%, 69%);
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    background-color: rgba(10, 2, 50, 0.968);
+    height: 130px;
 }
 
-.img2{
-    width: 33px;
-    height: 30px;
-    margin-left: 12px;
-    box-shadow: 0 0 3px 3px hsl(185, 86%, 69%);
-    
+.icon {
+    position: relative;
+    display: inline-block;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: white;
+
 }
 
-.img3{
-    width: 30px;
-    height: 30px;
-    margin-left: 12px;
-    border-radius: 200px 200px 200px 200px; 
-    box-shadow: 0 0 3px 3px hsl(185, 86%, 69%);
+.icon img {
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+   
+}
+.icon::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 50%;
+    box-shadow: 0 0 4px 4px rgb(40, 201, 201);
+    opacity: 0;
+    transition: opacity 0.3s ease;
 }
 
-.con{
-    margin-left: 80px;
-  
+.icon:hover::before {
+    opacity: 1;
 }
-
-
-
 

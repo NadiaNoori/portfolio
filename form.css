@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: 'Times New Roman', Times, serif;
-    background-color: rgba(15, 9, 39, 0.968);
+    background-color: rgb(6, 34, 34);
     color: #fff;
 }
 
@@ -72,7 +72,7 @@ body {
     color: #fff;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
     transition: background-color 0.3s ease;
-    margin-left: 380px;
+    margin-left: 390px;
     height: 15px;
 }
 
@@ -99,7 +99,7 @@ body {
     left: 10px;
     font-size: 17px;
     color: #e8edee;
-    margin-left: 380px;
+    margin-left: 387px;
 }
 
 
@@ -118,7 +118,7 @@ button {
     cursor: pointer;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
     transition: background-color 0.3s ease, transform 0.3s ease;
-    margin-left: 401px;
+    margin-left: 410px;
     color: rgb(252, 252, 252);
     font-weight: bold;
     padding-left: 21px;
