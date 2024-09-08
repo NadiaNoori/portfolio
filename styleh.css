@@ -22,7 +22,7 @@ body, ul {
 
 .navbar ul li {
     margin: 0 15px;
-    padding-top: 8px;
+    padding-top: 16px;
 }
 
 .navbar ul li a {
@@ -38,7 +38,7 @@ body, ul {
 #image{
     width: 290px;
     height: 260px;
-    margin-left: 470px;
+    margin-left: 474px;
     margin-top: -4px;
     padding-top: 150px;
    /* border-radius: 200px 200px 200px 200px; 
@@ -73,26 +73,24 @@ label{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 40px;
+    gap: 20px;
     background-color: rgba(10, 2, 50, 0.968);
     height: 130px;
 }
-
 .icon {
     position: relative;
     display: inline-block;
     border-radius: 50%;
     padding: 10px;
     background-color: white;
-
+    margin-bottom: 10px;
+    margin-left: 30px;
 }
-
 .icon img {
     display: block;
     width: 20px;
     height: 20px;
     border-radius: 50%;
-   
 }
 .icon::before {
     content: '';
@@ -106,8 +104,23 @@ label{
     opacity: 0;
     transition: opacity 0.3s ease;
 }
-
 .icon:hover::before {
     opacity: 1;
 }
-
+.para{
+    color: aliceblue;
+    text-align: right;
+    margin-right: 50px;
+    margin-top: -50px;
+}
+.cont{
+    text-align: center;
+    color: aliceblue;
+    padding-top: 27px;
+}
+.cont:hover {
+    color: #22ccdf;
+}
+.up{
+    background-color: rgba(10, 2, 50, 0.968);
+}
