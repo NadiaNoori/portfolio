@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: 'Times New Roman', Times, serif;
-    background-color: rgb(6, 34, 34);
+    background-color: rgba(10, 2, 50, 0.968);
     color: #fff;
 }
 
@@ -22,7 +22,7 @@ body {
     color: #16e4de;
     font-size: 2em;
     margin-bottom: 20px;
-    margin-left: 468px;
+    margin-left: 480px;
 }
 
 .contact-info p {
