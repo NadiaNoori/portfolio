@@ -1,108 +1,121 @@
 body {
-    background-color: rgba(15, 9, 39, 0.968); /* Dark background */
-    color: #ffffff;
-    font-family: 'Times New Roman', Times, serif;
+  background-color: rgba(15, 9, 39, 0.968); /* Dark background */
+  color: #fff;
+  font-family: 'Times New Roman', Times, serif;
 }
+
 .skill {
-    margin: 20px 0;
-    margin-top: 40px;
+  margin: 20px 0;
+  margin-top: 40px;
 }
+
 .skill-logo {
-    display: flex;
-    align-items: center;
-    margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
 }
+
 .skill-logo span {
-    font-size: 18px;
-    font-weight: bold;
-    margin-left: 30px;
-    margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 30px;
+  margin-top: 10px;
 }
+
 .skill-bar {
-    background-color: #fcfbfb;
-    border-radius: 25px;
-    overflow: hidden;
-    height: 15px;
-    width: 440%;
-    margin-left: 30px;
-  
+  background-color: #fcfbfb;
+  border-radius: 25px;
+  overflow: hidden;
+  height: 15px;
+  width: 440%;
+  margin-left: 30px;
 }
+
 .progress {
-    height: 100%;
-    border-radius: 25px;
-    background-color: #00c7c7;
+  height: 100%;
+  border-radius: 25px;
+  background-color: #00c7c7;
 }
 
 .english {
-    width: 90%; 
-}
-.figma {
-    width: 80%; 
-}
-.html{
-    width: 70%;
-   
-}
-.CSS{
-    width: 80%;
+  width: 90%;
 }
 
-.intim{
+.figma {
+  width: 80%;
+}
+
+.html {
+  width: 70%;
+}
+
+.CSS {
+  width: 80%;
+}
+
+.intim {
   display: flex;
   direction: row;
 }
 
-#image{
-    width: 270px;
-    height: 240px;
-    margin-left: 600px;
-    margin-top: -10px;
-    padding-top: 45px;
-   /* border-radius: 200px 200px 200px 200px; 
-    box-shadow: 0 0 10px 10px hsl(185, 86%, 69%);*/
-}
-.int{
-    border-radius: 200px 200px 200px 200px; 
-    height: 110px;
-    width: 110px;
-    box-shadow: 0 0 5px 5px hsl(243, 92%, 15%);
-    margin-left: 155px;
- 
-}
-label{
-    margin-left: 176px; 
-    font-size: 20px;
-}
-.certify{
-    width: 200px;
-    height: 230px;
-    margin-left: 78px;
-    box-shadow: 0 0 5px 5px hsl(185, 86%, 69%);
-}
-.cr2{
-    width: 200px;
-    height: 230px;
-    margin-left: 80px;
-    box-shadow: 0 0 5px 5px hsl(185, 86%, 69%);
-}
-.cr3{
-    width: 200px;
-    height: 230px;
-    margin-left: 82px;
-    box-shadow: 0 0 5px 5px hsl(185, 86%, 69%);
-}
-.cr4{
-    width: 200px;
-    height: 230px;
-    margin-left: 78px;
-    box-shadow: 0 0 5px 5px hsl(185, 86%, 69%);
+#image {
+  width: 270px;
+  height: 240px;
+  margin-left: 600px;
+  margin-top: -10px;
+  padding-top: 45px;
+
+  /* border-radius: 200px 200px 200px 200px;
+    box-shadow: 0 0 10px 10px hsl(185, 86%, 69%); */
 }
 
-.proj{
-    display: flex;
+.int {
+  border-radius: 200px 200px 200px 200px;
+  height: 110px;
+  width: 110px;
+  box-shadow: 0 0 5px 5px hsl(243, 92%, 15%);
+  margin-left: 155px;
+}
+
+label {
+  margin-left: 176px;
+  font-size: 20px;
+}
+
+.certify {
+  width: 200px;
+  height: 230px;
+  margin-left: 78px;
+  box-shadow: 0 0 5px 5px hsl(185, 86%, 69%);
+}
+
+.cr2 {
+  width: 200px;
+  height: 230px;
+  margin-left: 80px;
+  box-shadow: 0 0 5px 5px hsl(185, 86%, 69%);
+}
+
+.cr3 {
+  width: 200px;
+  height: 230px;
+  margin-left: 82px;
+  box-shadow: 0 0 5px 5px hsl(185, 86%, 69%);
+}
+
+.cr4 {
+  width: 200px;
+  height: 230px;
+  margin-left: 78px;
+  box-shadow: 0 0 5px 5px hsl(185, 86%, 69%);
+}
+
+.proj {
+  display: flex;
   direction: row;
 }
-.ints{
-    width: 300px;
-    height: 200px;
+
+.ints {
+  width: 300px;
+  height: 200px;
 }
