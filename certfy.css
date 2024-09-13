@@ -1,0 +1,67 @@
+body {
+  background-color: rgba(15, 9, 39, 0.968); /* Dark background */
+  color: #fff;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.intim {
+  display: flex;
+  direction: row;
+}
+
+#image {
+  width: 270px;
+  height: 240px;
+  margin-left: 600px;
+  margin-top: -10px;
+  padding-top: 45px;
+
+  /* border-radius: 200px 200px 200px 200px;
+      box-shadow: 0 0 10px 10px hsl(185, 86%, 69%); */
+}
+
+.int {
+  border-radius: 200px 200px 200px 200px;
+  height: 110px;
+  width: 110px;
+  box-shadow: 0 0 5px 5px hsl(243, 92%, 15%);
+  margin-left: 155px;
+}
+
+label {
+  margin-left: 176px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.certify {
+  width: 210px;
+  height: 250px;
+  margin-left: 64px;
+  box-shadow: 0 0 5px 5px hsl(185, 86%, 69%);
+}
+
+.cr2 {
+  width: 210px;
+  height: 250px;
+  margin-left: 80px;
+  box-shadow: 0 0 5px 5px hsl(185, 86%, 69%);
+}
+
+.cr3 {
+  width: 210px;
+  height: 250px;
+  margin-left: 82px;
+  box-shadow: 0 0 5px 5px hsl(185, 86%, 69%);
+}
+
+.cr4 {
+  width: 210px;
+  height: 250px;
+  margin-left: 80px;
+  box-shadow: 0 0 5px 5px hsl(185, 86%, 69%);
+}
+
+a {
+  color: rgb(37, 69, 255);
+}

@@ -1,0 +1,185 @@
+body,
+ul {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/* Navbar Styling */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #22ccdf;
+  padding: 10px 0;
+  z-index: 1000;
+  height: 40px;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar ul li {
+  margin: 0 15px;
+  padding-top: 8px;
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+  color: #f359ca;
+}
+
+#img-div {
+  background-color: rgba(10, 2, 50, 0.968);
+  height: 400px;
+}
+
+#image {
+  width: 270px;
+  height: 240px;
+  margin-left: 800px;
+  padding-top: 103px;
+
+  /* border-radius: 200px 200px 200px 200px;
+    box-shadow: 0 0 10px 10px hsl(185, 86%, 69%); */
+}
+
+.name {
+  font-family: roman;
+  font-size: 45px;
+  font-style: italic;
+  text-align: left;
+  color: aliceblue;
+  margin-left: 150px;
+  margin-top: -120px;
+}
+
+h2 {
+  text-align: center;
+  color: rgb(7, 8, 8);
+  font-size: 33px;
+}
+
+pre {
+  font-family: roman;
+  font-size: 18px;
+  padding-top: 0;
+  margin-left: 40px;
+}
+
+a {
+  color: blue;
+}
+
+.name1 {
+  font-family: roman;
+  font-size: 33px;
+  text-align: center;
+  padding-top: 40px;
+}
+
+#tribute-info {
+  background-color: #22ccdf;
+  height: 70px;
+  width: 1230px;
+  color: rgba(253, 253, 253, 0.945);
+  border-radius: 5px 5px 5px 5px;
+}
+
+.int {
+  border-radius: 200px 200px 200px 200px;
+  height: 110px;
+  width: 110px;
+  box-shadow: 0 0 5px 5px hsl(243, 92%, 15%);
+  margin-left: 118px;
+}
+
+label {
+  margin-left: 140px;
+  font-size: 20px;
+}
+
+.intim {
+  display: flex;
+  direction: row;
+}
+
+.footer {
+  padding-top: 24px;
+  padding-left: 30px;
+  font-size: 16px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background-color: #22ccdf;
+  height: 130px;
+}
+
+.icon {
+  position: relative;
+  display: inline-block;
+  border-radius: 50%;
+  padding: 10px;
+  background-color: white;
+  margin-bottom: 10px;
+  margin-left: 30px;
+}
+
+.icon img {
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.icon::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 50%;
+  box-shadow: 0 0 4px 4px black;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.icon:hover::before {
+  opacity: 1;
+}
+
+.para {
+  color: aliceblue;
+  text-align: left;
+  margin-left: 40px;
+  margin-top: -50px;
+}
+
+.cont {
+  text-align: center;
+  color: aliceblue;
+  padding-top: 27px;
+}
+
+.cont:hover {
+  color: black;
+}
+
+.up {
+  background-color: #22ccdf;
+}
